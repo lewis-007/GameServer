@@ -1,0 +1,9 @@
+{
+  "MYSQL_USER": "meta1_xfx_hk",
+  "MYSQL_PWD": "iJ6iAwM8DTJk2mPM",
+  "SERVER_IP": "172.21.16.9",
+  "MYSQL_HOST": "127.0.0.1",
+  "MYSQL_DB_NAME": "meta1_xfx_hk",
+  "SERVER_PORT": 7541,
+  "RELOAD": false
+}

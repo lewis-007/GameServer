@@ -1,0 +1,54 @@
+# coding=utf-8
+
+FLAG_NO = 0
+FLAG_YES = 1
+
+C2S_COMMON = 0
+C2S_USER = 1
+C2S_HERO = 2
+C2S_ITEM = 3
+C2S_FIGHT = 4
+C2S_TEST = 99
+
+S2C_COMMON = 0
+S2C_USER = 1
+S2C_HERO = 2
+S2C_ITEM = 3
+S2C_FIGHT = 4
+
+S2C_TEST = 99
+
+MAX_HERO_GRADE = 100
+MAX_USER_GRADE = 100
+
+ITEM_SHENSHI = 4  # 神石
+MAX_TEAM_HERO = 5 # 阵容最大英雄数
+LONG_MXA = 2 ** 53 - 1
+LONG_MIN = -2 ** 53 + 1
+OFFSET_RUNE2ITEM = 1000  # 符文对应的物品编号偏移
+
+COIN_SILVER = 0
+COIN_GOLD = 1
+
+MAX_RUNE_REFINE = 5  # 符文提炼最多数量
+ITEM_POTION_NUM_DATA = {
+	1: 50,
+	2: 200,
+	3: 500,
+}  # 药水物品编号以及增加的经验值
+MAX_ATTACK_COLOR = 5
+CHESS_COLS = 6
+CHESS_ROWS = 5
+
+POTION_1 = 1#低级药水
+
+
+EMAIL_LOGIN = 0#登录邮件
+
+FIREND_NUM_MAX = 20
+
+TASK_1 = 1 # 1 - 累计角色达到级别
+
+TASK_2 = 2 # 2 - 通关挑战对应关
+
+TASK_3 = 3 # 3 - 累计拥有角色数
